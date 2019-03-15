@@ -1,0 +1,12 @@
+CONFIG GLOBAL USER:
+  git config --global user.name <<<email>>>
+
+ADD REMOTE ORIGIN :
+  git remote add <<<name>>> https://github.com/alfred0110/tpv
+
+PUSH
+  git push -u <<<name-remote-repository>>> -all
+
+
+Para proyecto TPV se nombro al repositorio remoto: tpv
+  git push -u tpv -all
